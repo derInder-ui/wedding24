@@ -40,7 +40,7 @@ export function VenueFilters() {
                 step={500}
               />
               <span className="text-sm text-gray-500">
-                Bis zu {priceRange.toLocaleString('de-DE')} €
+                Bis zu {priceRange[0].toLocaleString('de-DE')} €
               </span>
             </div>
 
